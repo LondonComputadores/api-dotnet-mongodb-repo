@@ -1,0 +1,10 @@
+Mongo:
+
+- Standalone = Somente para desenvolvimento, nunca para produção.
+- Replicaset = 1 Primário e 2 secundários e se o primário cai um dos 2 secundários será eleito e manterá o DB funcionando.
+
+### Para criar a estrutura da API:
+
+- dotnet new api -n Api
+- cd Api/
+- Remover Weather files da ./ e da pasta Controllers
